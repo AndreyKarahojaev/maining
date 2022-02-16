@@ -1,22 +1,17 @@
 <template>
-  <div>
-    <div>
-      <img src="" alt="">
+  <div class="header">
+    <div class="logo-header">
+      <img src="./src/assets/img/icon/logo.svg" alt="логотип">
     </div>
-    <div class="header">
-      <div>
-        <ul>
-          <li><a href="" class=""></a>О проекте</li>
-          <li><a href="" class="">Тарифы</a></li>
-          <li><a href="" class="">FAQ</a></li>
-          <li><a href="" class="">Контакты</a></li>
-        </ul>
-        <div><a href="">Вход</a></div>
-      </div>
-      <button>
-
-      </button>
+    <div class="header-menu">
+      <ul class="meny-list">
+        <li class="list-items"><a href="#" class="list-items link-item"></a>О проекте</li>
+        <li class="list-items"><a href="#" class="list-items link-item">Тарифы</a></li>
+        <li class="list-items"><a href="#" class="list-items link-item">FAQ</a></li>
+        <li class="list-items"><a href="#" class="list-items link-item">Контакты</a></li>
+      </ul>  
     </div>
+    <div><a href="">Вход</a></div>
   </div>
 </template>
 

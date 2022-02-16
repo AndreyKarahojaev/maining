@@ -95,6 +95,61 @@ body {
   // background-color: $basic-background;
 }
 
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justufy-center {
+  justify-content: center;
+}
+.justufy-around {
+  justify-content: space-around;
+}
+.justufy-between {
+  justify-content: space-between;
+}
+.items-align {
+  align-items: center;
+}
+.width-m360 {
+  width: 360px;
+}
+.width-m328 {
+  width: 328px;
+}
+.width-m296 {
+  width: 296px;
+}
+.width-m264 {
+  width: 264px;
+}
+.width-m256 {
+  width: 256px;
+}
+.width-776 {
+  width: 776px;
+}
+.width-688 {
+  width: 688px;
+}
+.width-480 {
+  width: 480px;
+}
+.width-423 {
+  width: 423px;
+}
+.width-416 {
+  width: 416px;
+}
+.width-256 {
+  width: 256px;
+}
+
+
+
+
 
 //часто используемые классы
 .visually-hidden {

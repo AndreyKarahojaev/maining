@@ -20,7 +20,7 @@ export default {
   max-width: 1920px;
   width: 100%;
   min-width: 320px;
-  font-family: Gotham Pro, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
