@@ -17,10 +17,10 @@ export default {
 
 <style>
 .wrapper {
-  max-width: 1440px;
+  max-width: 1920px;
   width: 100%;
   min-width: 320px;
-  font-family: Poppins, sans-serif;
+  font-family: Gotham Pro, sans-serif;
 }
 
 

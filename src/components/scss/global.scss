@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+height: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+// @media only screen and (min-device-width : $ .*** ) and (max-device-width : $ .*** ) {
+
+// }
+
+
+  //размеры экрана
+  $small:  320px;
+  $medium:  700px;
+  $large:  1001px;
+  $huge:  1200px;
+  $giant: 1920px;
+  $immeasurable: 2560px;
+
+
+  // main colors
+  $basic-white:#ffffff;
+  $basic-black:#333333;
+  $basic-wgrey: #F5F5F5;
+  $basic-grey: #A1A1A3;
+
+  // PRIMARY COLOR/other
+  $primary-inactiv:#87B645;
+  $primary-hover:#FBAC00;
+  $primary-press:#2B69DD;
+  $primary-disable:#D7D7D7;
+
+  //border-colors
+  $border-gray:#D7D7D7;
+  $border-blue: #A0C4FA;
+  //центрирование контента
+  
+  //OTHER COLOR
+  $other-green: #098B50;
+  $other-izumrud: #026057;
+  $other-red: #EB5757;
+  $other-blue: #75ACFE;
+  $other-ocean: #1BAAD1;
+  $other-yellow: #F8DB73;
+
+//шрифт
+  $font-family: 'Raleway', sans-serif;
+
+  $font-H1_60: 60px;
+  $font-H2_48: 48px;
+  $font-H3_36: 36px;
+  $font-Text_30: 30px;
+  $font-Text_24: 24px;
+  $font-Text_18: 18px;
+  $font-Text_14: 14px;
+
+  $font-line130: 130%;
+  $font-line140: 140%;
+
+  $weight-bolder: 500;
+  $weight-bold: 600;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color:  #000;
+  width: 100%;
+
+  margin: 0 auto;
+  // overflow-x: hidden;
+  // background-color: $basic-background;
+}
+
+
+//часто используемые классы
+.visually-hidden {
+  position: absolute;
+  clip: rect( 0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+// .text-btn {
+//   text-transform: uppercase;
+//   font-weight: 300;
+//   font-size: $font-sizeSmall;
+//   line-height: 21px;
+//   color: $basic-white;
+// }
+
+// .button {
+//   display: inline-block;
+//   width: 250px;
+//   height: 50px;
+//   text-align: center;
+//   background-color: $basic-accent;
+// }
+
+// .button:hover {
+//   background-color: $basic-white;
+// }
+
+// .button:active {
+//   background-color: $basic-white;
+// }
+
+// .button:disabled {
+//   background-color: $basic-white;
+// }
+
+// .button:hover p {
+//   color: $basic-accent;
+// }
+
+
+
+
+
