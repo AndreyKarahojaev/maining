@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="wrapper">
     <slot />
   </div>
 </template>
@@ -24,6 +24,9 @@ export default {
   width: 100%;
   min-width: 320px;
   font-family: 'Raleway', sans-serif;
+  padding: 0 40px;
+  margin: 0 auto;
+  background: $basic-wgrey;
 }
 
 </style>

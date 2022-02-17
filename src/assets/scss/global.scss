@@ -27,8 +27,6 @@ height: 100%;
   padding: 0 15px;
 }
 
-
-
 body {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -41,6 +39,14 @@ body {
   margin: 0 auto;
   // overflow-x: hidden;
   // background-color: $basic-background;
+}
+
+.disabled {
+  display:none;
+}
+
+.active {
+  display: block;
 }
 
 .flex {
@@ -60,6 +66,10 @@ body {
 }
 .items-align {
   align-items: center;
+}
+
+.m10 {
+  margin:10px 10px 0px 10px;
 }
 
 .width {
@@ -98,10 +108,6 @@ body {
 .width-256 {
   width: 256px;
 }
-
-
-
-
 
 //часто используемые классы
 .visually-hidden {
