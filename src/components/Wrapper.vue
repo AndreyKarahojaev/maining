@@ -7,6 +7,7 @@
 <script>
 // import styles from '../components/style/style.scss'
 
+
 export default {
   name: 'Wrapper'
 }
@@ -15,13 +16,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
-<style>
+<style lang="scss">
+
+
 .wrapper {
   max-width: 1920px;
   width: 100%;
   min-width: 320px;
   font-family: 'Raleway', sans-serif;
 }
-
 
 </style>
