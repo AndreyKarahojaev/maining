@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700&display=swap');
+
+//nnr
+@font-face {
+	font-family: 'Raleway', sans-serif;;
+	font-style: normal;
+	font-weight: 700;
+	src: local('Raleway'),
+		url('/fonts/Raleway-VariableFont_wght') format('woff2'), 
+}
+
+@font-face {
+	font-family: 'Raleway', sans-serif;;
+	font-style: normal;
+	font-weight: normal;
+	src: local('Raleway'),
+	url('/fonts/Raleway-VariableFont_wght') format('woff2'), 
+}
+
+@font-face {
+	font-family: 'Raleway', sans-serif;;
+	font-style: normal;
+	font-weight: 500;
+	src: local('Raleway'),
+	url('/fonts/Raleway-VariableFont_wght') format('woff2'), 
+}
+
+@font-face {
+	font-family: 'Raleway', sans-serif;;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'),
+	url('/fonts/Raleway-VariableFont_wght') format('woff2'), 
+}
