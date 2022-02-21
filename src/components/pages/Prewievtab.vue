@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="prewiewtab">
         <div>
             <img src="" alt="">
             <h3></h3>
@@ -25,5 +25,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.prewiewtab {
+    width: 100%;
+    height: 100px;
+    border: 2px solid red;
+}
 </style>

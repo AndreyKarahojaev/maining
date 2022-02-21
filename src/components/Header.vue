@@ -36,8 +36,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style lang="scss">
+
 .header{
-  margin: 10px 10px 0 10px;
+  width: 100%;
+  margin-bottom: 210px;
+}
+
+.logo-header {
+  display: none;
 }
 
 .menu-list {
@@ -45,8 +51,7 @@ export default {
   position: absolute;
   padding: 0;
   top: 0%;
-  margin: 0;
-  background: $basic-white;
+  margin: 0; 
 }
 
 .list-items {
@@ -80,7 +85,9 @@ export default {
   transition-duration: 1.1s;
 }
 
-@media screen and (min-width: 380px) {
+
+
+@media screen and (min-width: 400px) {
 
   .header {
     display: flex;
@@ -89,7 +96,11 @@ export default {
     margin: 0 auto;
     width: 100%;
     padding-top: 64px;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
+  }
+
+  .logo-header {
+    display: block;
   }
 
   .header-menu {
@@ -115,8 +126,6 @@ export default {
     background: $basic-wgrey;
   }
 
-
-
   .header-btn {
     display: inline-block;
     font-family: $font-family;
@@ -132,6 +141,30 @@ export default {
     width: 200px;
     border-radius: 10px;
   }
+}
+
+@media only screen and (min-device-width : $medium ) and (max-device-width : $large ) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header-menu {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-device-width : $medium-mini ) and (max-device-width : $medium ) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header-menu {
+    width: 100%;
+  }
+
 }
 
 </style>

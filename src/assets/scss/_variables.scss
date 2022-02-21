@@ -1,8 +1,10 @@
   //размеры экрана
-  $small:  320px;
-  $medium:  700px;
-  $large:  1001px;
-  $huge:  1200px;
+  $small:  382px;
+  $medium-mini: 400px;
+  $medium-light: 600px;
+  $medium: 700px;
+  $large: 910px;
+  $huge: 1200px;
   $giant: 1920px;
   $immeasurable: 2560px;
 
@@ -45,5 +47,6 @@
   $font-line130: 130%;
   $font-line140: 140%;
 
+  $weight-light: 300;
   $weight-bolder: 500;
   $weight-bold: 600;
