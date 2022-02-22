@@ -25,7 +25,7 @@ export default {
   max-width: 1920px;
   min-width: 320px;
   font-family: 'Raleway', sans-serif;
-
+  padding: 0px 40px 0px 40px;
   margin: 0 auto;
   background: $basic-wgrey;
 }

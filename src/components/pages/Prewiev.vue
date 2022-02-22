@@ -8,8 +8,8 @@
       </h1>
       <p class="prewiew-top__text">Честность майнинга заложена в архитектуре</p>
       <div class="prewiew-top__btn-block btn-block">
-        <a href="" class="btn-block__earn">Начать зарабатывать</a>
-        <a href="" class="btn-block__learn">Узнать больше</a>
+        <a href="" class="btn-block__earn prewiew-btn">Начать зарабатывать</a>
+        <a href="" class="btn-block__learn prewiew-btn">Узнать больше</a>
       </div>
     </div>
     <div class="prewiew-bottom">
@@ -122,6 +122,14 @@ export default {
   line-height: 17px;
   margin-right: 25px;
   color: $basic-white;
+}
+
+.prewiew-btn:hover {
+  background: $primary-hover;
+}
+
+.prewiew-btn:focus {
+  background: $primary-press;
 }
 
 .prewiew-bottom {

@@ -70,6 +70,14 @@ export default {
     }
 }
 
+.header-btn:hover {
+  background: $primary-hover;
+}
+
+.header-btn:focus {
+  background: $primary-press;
+}
+
 .link-item {
   font-family: $font-family;
   font-style: normal;
