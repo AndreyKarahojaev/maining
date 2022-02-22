@@ -36,6 +36,7 @@ export default {
 <style lang="scss" scoped>
   .main {
     position: relative;
+
   }
 
   @media screen and (min-width: 380px) {

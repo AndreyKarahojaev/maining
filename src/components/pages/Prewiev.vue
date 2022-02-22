@@ -17,13 +17,12 @@
         <div class="prewiew-bottom__content">
           <h2 class="prewiew-bottom__title">open mining</h2>
           <p class="prewiew-bottom__text">
-              — это прозрачный заработок на майнинге криптовалют, а самое главное —
-              мы находимся в России.
+            — это прозрачный заработок на майнинге криптовалют, а самое главное
+            — мы находимся в России.
           </p>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -34,7 +33,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .prewiew {
   position: relative;
   max-width: 100%;
@@ -45,25 +43,29 @@ export default {
 }
 
 .prewiew__fon {
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    background: url("../../assets/img/icon/prewiew-bottom-graphblu.svg") 50% 3% no-repeat scroll border-box,
-                url("../../assets/img/icon/prewiew-bottom-graphred.svg") 50% 18% no-repeat scroll border-box;
-    opacity: 0.5;
-    background-size: 119% 157%, 109% 234%;
-  }
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background: url("../../assets/img/icon/prewiew-bottom-graphblu.svg") 50% 3%
+      no-repeat scroll border-box,
+    url("../../assets/img/icon/prewiew-bottom-graphred.svg") 50% 18% no-repeat
+      scroll border-box;
+  opacity: 0.5;
+  background-size: 119% 157%, 109% 234%;
+}
 
-  .prewiew__fon-svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url("../../assets/img/icon/Bitcoin.svg") 95% -10% no-repeat scroll border-box, 
-                url("../../assets/img/icon/Ethereum_O.svg") 2% 0% no-repeat scroll border-box, 
-                url("../../assets/img/icon/FCT_O.svg") 84% 0% no-repeat scroll border-box;
-    background-size: 10% 20%, 10% 20%, 10% 20%;
-    opacity: 1;
-  }
+.prewiew__fon-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/img/icon/Bitcoin.svg") 95% -10% no-repeat scroll
+      border-box,
+    url("../../assets/img/icon/Ethereum_O.svg") 2% 0% no-repeat scroll
+      border-box,
+    url("../../assets/img/icon/FCT_O.svg") 84% 0% no-repeat scroll border-box;
+  background-size: 10% 20%, 10% 20%, 10% 20%;
+  opacity: 1;
+}
 
 .prewiew-top {
   position: relative;
@@ -79,7 +81,7 @@ export default {
 
 .prewiew-top__title {
   font-weight: $weight-bold;
-  font-size:  $font-Text_24;
+  font-size: $font-Text_24;
   line-height: $font-line140;
   color: $basic-black;
 }
@@ -139,7 +141,6 @@ export default {
   background-size: 100% 50%;
 }
 
-
 .prewiew-bottom__block {
   display: flex;
   flex-direction: column;
@@ -155,8 +156,8 @@ export default {
 
 .prewiew-bottom__content {
   position: relative;
-    top: 0%;
-    right: 0%;  
+  top: 0%;
+  right: 0%;
 }
 
 .prewiew-bottom__title {
@@ -164,7 +165,7 @@ export default {
   font-size: $font-H3_36;
   line-height: $font-line130;
   color: $other-ocean;
-  margin: 20px 0; 
+  margin: 20px 0;
   padding: 0%;
 }
 
@@ -172,11 +173,15 @@ export default {
   max-width: 320px;
   font-size: $font-Text_24;
   line-height: $font-line130;
-  margin: 10px 0; 
+  margin: 10px 0;
   padding: 0%;
 }
 
-@media only screen and (min-device-width : $small ) and (max-device-width : $medium-light ) {
+@media only screen and (min-device-width: $small) and (max-device-width: $medium-light) {
+  .prewiew__fon,
+  .prewiew__fon--svg {
+    display: none;
+  }
 
   .prewiew-top__text {
     margin-top: 30px;
@@ -207,7 +212,6 @@ export default {
     background-size: 100% 56%;
   }
 
-
   .prewiew-bottom__block {
     display: flex;
     flex-direction: column;
@@ -223,18 +227,20 @@ export default {
 
   .prewiew-bottom__content {
     position: relative;
-      top: 0%;
-      right: 0%;  
+    top: 0%;
+    right: 0%;
   }
-
 
   .prewiew-bottom__text {
     max-width: 320px;
   }
+}
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 590px) {
+  .prewiew__fon,
+  .prewiew__fon-svg {
+    display: none;
   }
-
-@media only screen and (min-device-width : 414px ) and (max-device-width : 590px ) {
 
   .btn-block__learn {
     display: inline-block;
@@ -246,7 +252,7 @@ export default {
     right: 1%;
   }
 
-   .prewiew-bottom {
+  .prewiew-bottom {
     background-position: 100% 25%;
     background-size: 80%;
   }
@@ -255,10 +261,13 @@ export default {
     background-position: 50% 100%;
     background-size: contain;
   }
-
 }
 
-@media only screen and (min-device-width : $medium-light ) and (max-device-width : $large ) {
+@media only screen and (min-device-width: $medium-light) and (max-device-width: $large) {
+  .prewiew__fon,
+  .prewiew__fon-svg {
+    display: none;
+  }
 
   .prewiew-top__text {
     margin-top: 20px;
@@ -301,7 +310,6 @@ export default {
     background-size: 80% 70%;
   }
 
-
   .prewiew-bottom__block {
     display: flex;
     flex-direction: column;
@@ -317,18 +325,16 @@ export default {
 
   .prewiew-bottom__content {
     position: relative;
-      top: 0%;
-      right: 0%;  
+    top: 0%;
+    right: 0%;
   }
 
   .prewiew-bottom__text {
     max-width: 320px;
   }
-
-  }
+}
 
 @media screen and (min-width: 920px) {
-
   .prewiew {
     position: relative;
     max-width: 100%;
@@ -343,8 +349,10 @@ export default {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: url("../../assets/img/icon/prewiew-bottom-graphblu.svg") center 3% no-repeat scroll border-box,
-                url("../../assets/img/icon/prewiew-bottom-graphred.svg") center 18% no-repeat scroll border-box;
+    background: url("../../assets/img/icon/prewiew-bottom-graphblu.svg") center
+        3% no-repeat scroll border-box,
+      url("../../assets/img/icon/prewiew-bottom-graphred.svg") center 18%
+        no-repeat scroll border-box;
     background-size: auto, auto;
     opacity: 0.2;
   }
@@ -354,10 +362,13 @@ export default {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: url("../../assets/img/icon/Bitcoin.svg") 80% 0% no-repeat scroll border-box,
-                url("../../assets/img/icon/Ripple_O.svg") 77% 27% no-repeat scroll border-box,
-                url("../../assets/img/icon/Ethereum_O.svg") 10% 1% no-repeat scroll border-box,
-                url("../../assets/img/icon/FCT_O.svg") 22% 21% no-repeat scroll border-box;
+    background: url("../../assets/img/icon/Bitcoin.svg") 80% 0% no-repeat scroll
+        border-box,
+      url("../../assets/img/icon/Ripple_O.svg") 77% 27% no-repeat scroll
+        border-box,
+      url("../../assets/img/icon/Ethereum_O.svg") 10% 1% no-repeat scroll
+        border-box,
+      url("../../assets/img/icon/FCT_O.svg") 22% 21% no-repeat scroll border-box;
     opacity: 1;
   }
 
@@ -370,7 +381,6 @@ export default {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-
   }
 
   .prewiew-top__title {
@@ -438,7 +448,6 @@ export default {
     background-size: 80% 93%;
   }
 
-
   .prewiew-bottom__block {
     display: flex;
     flex-direction: column;
@@ -454,15 +463,15 @@ export default {
 
   .prewiew-bottom__content {
     position: relative;
-      top: 10%;
-      right: 3%;  
+    top: 10%;
+    right: 3%;
   }
 
   .prewiew-bottom__title {
     font-weight: $weight-bold;
     font-size: $font-H2_48;
     color: $other-ocean;
-    margin: 20px 0; 
+    margin: 20px 0;
     padding: 0%;
   }
 
@@ -470,9 +479,8 @@ export default {
     max-width: 500px;
     font-size: $font-Text_30;
     line-height: $font-line130;
-    margin: 10px 0; 
+    margin: 10px 0;
     padding: 0%;
-    
   }
 }
 </style>
