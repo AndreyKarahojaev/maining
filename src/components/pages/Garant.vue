@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="garant">
     <h3>
       Гарантии
     </h3>
