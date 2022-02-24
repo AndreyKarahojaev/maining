@@ -52,6 +52,11 @@ export default {
       scroll border-box;
   opacity: 0.5;
   background-size: 119% 157%, 109% 234%;
+
+  &:hover {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+  }
 }
 
 .prewiew__fon-svg {
@@ -378,6 +383,10 @@ export default {
         border-box,
       url("../../assets/img/icon/FCT_O.svg") 22% 21% no-repeat scroll border-box;
     opacity: 1;
+      &:hover {
+        opacity: 0.4;
+        transition: 0.2s ease-in-out;
+      }
   }
 
   .prewiew-top {

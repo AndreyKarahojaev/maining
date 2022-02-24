@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="calc">
     <form action="">
     <h3>
       Расчитайте свой доход
@@ -35,5 +35,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .calc {
+    display: inline-block;
+    margin-top: 30px;
+  }
 
 </style>

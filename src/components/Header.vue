@@ -40,6 +40,7 @@ export default {
 .header{
   width: 100%;
   margin-bottom: 210px;
+  padding: 0px 40px 0px 40px;
 }
 
 .logo-header {
