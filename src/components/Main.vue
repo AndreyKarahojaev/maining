@@ -37,6 +37,7 @@ export default {
   .main {
     position: relative;
     min-height: 100%;
+    max-width: 1920px;
   }
 
   @media screen and (min-width: 380px) {

@@ -95,6 +95,11 @@ export default {
   position: relative;
   margin-top: 130px;
   margin-bottom: 140px;
+
+  background-image: url("../../assets/img/icon/edge-blue-block.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 10%;
+  background-size: 30% 42%;
 }
 
 .edge-wrapper {
@@ -118,10 +123,6 @@ export default {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  background-image: url("../../assets/img/icon/edge-blue-block.svg");
-  background-repeat: no-repeat;
-  background-position: 0%;
-  background-size: 40% 75%;
 }
 
 .edge-block {

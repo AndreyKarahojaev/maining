@@ -38,6 +38,10 @@ export default {
   .calc {
     display: inline-block;
     margin-top: 30px;
+    height: 673px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
   }
 
 </style>
