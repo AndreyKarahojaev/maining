@@ -40,7 +40,7 @@ export default {
 .header{
   width: 100%;
   margin-bottom: 210px;
-  padding: 0px 40px 0px 40px;
+  padding: 0px;
 }
 
 .logo-header {
@@ -104,8 +104,8 @@ export default {
     align-content: center;
     margin: 0 auto;
     width: 100%;
-    padding-top: 64px;
     margin-bottom: 100px;
+    padding: 64px 40px 0px 40px;
   }
 
   .logo-header {
@@ -168,10 +168,19 @@ export default {
 
   .header {
     flex-direction: column;
+    padding: 64px 40px 0px 40px;
   }
 
   .header-menu {
     width: 100%;
+  }
+
+  @media screen and (min-width: 900px) {
+
+    .header {
+      padding: 0px 40px 0px 40px;
+    }
+
   }
 
 }

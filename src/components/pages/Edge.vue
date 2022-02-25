@@ -290,5 +290,9 @@ export default {
     font-size: $font-H2_48;
     text-align: center;
   }
+  
+  .edge-content {
+    flex-wrap: wrap;
+  }
 }
 </style>
