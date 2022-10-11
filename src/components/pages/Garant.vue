@@ -33,9 +33,9 @@
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {
+
+}
 </script>
 
 <style lang="scss" scoped>
@@ -77,8 +77,7 @@
         max-height: 400px;
         box-shadow: 0px 4px 20px rgba(165, 165, 165, 0.25);
         border-radius: 8px;
-        
-        
+
         .garant_text {
           font-weight: 400;
           font-size: 18px;
@@ -116,7 +115,6 @@
       .title--two { margin: 20px;}
       .title--tri { margin: 20px;}
       }
-
 
     }
     .garant_bottom {

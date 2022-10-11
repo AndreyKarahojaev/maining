@@ -7,7 +7,6 @@
 <script>
 // import styles from '../components/style/style.scss'
 
-
 export default {
   name: 'Wrapper'
 }
@@ -18,9 +17,8 @@ export default {
 
 <style lang="scss">
 
-
 .wrapper {
-  
+
   width: 100%;
   max-width: 1920px;
   min-width: 320px;

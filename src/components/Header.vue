@@ -9,7 +9,7 @@
         <li class="list-items"><a href="#" class="link-item">Тарифы</a></li>
         <li class="list-items"><a href="#" class="link-item">FAQ</a></li>
         <li class="list-items"><a href="#" class="link-item">Контакты</a></li>
-      </ul>  
+      </ul>
     </div>
     <div>
       <a href="" class="disabled header-entry-svg">
@@ -52,7 +52,7 @@ export default {
   position: absolute;
   padding: 0;
   top: 0%;
-  margin: 0; 
+  margin: 0;
 }
 
 .list-items {
@@ -87,15 +87,13 @@ export default {
   font-size: $font-Text_24;
   line-height: $font-line140;
   color: $basic-black;
-  text-decoration: none;    
+  text-decoration: none;
 }
 
 .header-entry-svg:hover {
   transform:rotate(180deg);
   transition-duration: 1.1s;
 }
-
-
 
 @media screen and (min-width: 400px) {
 

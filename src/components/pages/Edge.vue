@@ -84,8 +84,8 @@
 
 <script>
 export default {
-  name: "Edge",
-};
+  name: 'Edge'
+}
 </script>
 
 <style lang="scss" scoped>
@@ -290,7 +290,7 @@ export default {
     font-size: $font-H2_48;
     text-align: center;
   }
-  
+
   .edge-content {
     flex-wrap: wrap;
   }

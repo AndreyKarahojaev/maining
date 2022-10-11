@@ -11,16 +11,16 @@
 </template>
 
 <script>
-import Prewiev from "./pages/Prewiev.vue";
-import Prewievtab from "./pages/Prewievtab.vue";
-import Edge from "./pages/Edge.vue";
-import Calc from "./pages/Calc.vue";
-import Garant from "./pages/Garant.vue";
-import Faq from "./pages/Faq.vue";
-import Contacts from "./pages/Contacts.vue";
+import Prewiev from './pages/Prewiev.vue'
+import Prewievtab from './pages/Prewievtab.vue'
+import Edge from './pages/Edge.vue'
+import Calc from './pages/Calc.vue'
+import Garant from './pages/Garant.vue'
+import Faq from './pages/Faq.vue'
+import Contacts from './pages/Contacts.vue'
 
 export default {
-  name: "Main",
+  name: 'Main',
   components: {
     Prewiev,
     Prewievtab,
@@ -28,9 +28,9 @@ export default {
     Calc,
     Garant,
     Faq,
-    Contacts,
-  },
-};
+    Contacts
+  }
+}
 </script>
 
 <style lang="scss" scoped>

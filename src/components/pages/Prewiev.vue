@@ -28,8 +28,8 @@
 
 <script>
 export default {
-  name: "Prewiev",
-};
+  name: 'Prewiev'
+}
 </script>
 
 <style lang="scss" scoped>

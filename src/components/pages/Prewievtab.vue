@@ -56,8 +56,8 @@
 
 <script>
 export default {
-  name: "Prewievtable",
-};
+  name: 'Prewievtable'
+}
 </script>
 
 <style lang="scss" scoped>
